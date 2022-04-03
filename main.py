@@ -10,6 +10,7 @@ async def root():
     return {"player": player.randomPlayer()['short_name']}
 
 
+
 @app.get("/player/{query}")
 async def getPlayerFromQuery(query: str):
     tempdf = player.playersFromQuery(query)
