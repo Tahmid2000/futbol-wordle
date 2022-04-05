@@ -101,11 +101,4 @@ class Player:
         else:
             final['club'] = 'black'
 
-        print(p1[0])
-        print(p2[0])
-        print(final)
-
-
-
-player = Player()
-player.matchingPlayer('benzema', 'messi')    
+        return final 
